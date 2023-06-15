@@ -1,4 +1,4 @@
-git let userDetails=false;
+let userDetails=false;
 let promise = new Promise(function(resolve, reject){
     if(userDetails){
         setTimeout(()=>{resolve("User details available")},1000);

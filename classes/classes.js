@@ -8,8 +8,12 @@ class Person{
 
     }
     greet(){
-
+ 
         console.log('Hello');
+    }
+
+    getSchool(){
+        console.log("AkiraChix")
     }
 
 
@@ -17,6 +21,7 @@ class Person{
 let person=new Person('Hannah',30,'5ft 8inch');
 console.log({person});
 person.greet();
+person.getSchool();
 
 class Child extends Person{
     constructor(name,age,height,brains){

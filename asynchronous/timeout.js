@@ -1,4 +1,4 @@
-let partyPeople =()=>{
+ let partyPeople =()=>{
 console.log("lam showering")
 
 };
